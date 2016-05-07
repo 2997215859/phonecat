@@ -4,10 +4,23 @@
 	<meta charset="utf-8">
 	<title>phonecat</title>
 	<link rel="stylesheet" type="text/css" href="framework/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="css/animations.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
 	<script type="text/javascript" src="framework/angular/angular.min.js"></script>
 	<script type="text/javascript" src="framework/angular-route/angular-route.min.js"></script>
-	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="framework/angular-resource/angular-resource.min.js"></script>
+	<script type="text/javascript" src="framework/angular-animate/angular-animate.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+	<script type="text/javascript" src="js/filter.js"></script>
+	<script type="text/javascript" src="js/service.js"></script>
+	<script type="text/javascript" src="js/animation.js"></script>
+	<script type="text/javascript" src="framework/jquery/dist/jquery.min.js"></script>
 </head>
-<body ng-view></body>
+<body>
+	<div class="view-container">
+		<div class="view-frame" ng-view></div>
+	</div>
+</body>
 </html>
